@@ -4,15 +4,15 @@
 */
 
 #include <iostream>
-#define MIN 90
-#define MAX 100
+#define min 80 
+#define max 120 
 
 using namespace std;
 
 int main()
 {
 	int i;
-	for (i = MIN; i < MAX; i++) {
+	for (i = min; i < max; i++) {
 		cout << i << endl;
 		// printf("%d\n", i);
 	}
